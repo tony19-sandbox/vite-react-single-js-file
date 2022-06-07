@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     cssCodeSplit: false,
   },
+  base: "https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-demo/dist/",
 })
