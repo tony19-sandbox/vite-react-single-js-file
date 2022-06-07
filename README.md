@@ -1,6 +1,6 @@
 ### Creating a single JS file output
 
-1. Scaffold a [Vite]((https://vitejs.dev/) project with the React template:
+1. Scaffold a [Vite](https://vitejs.dev/) project with the React template:
 
    ```shell
    npm init vite my-react-project -- --template react
@@ -54,11 +54,11 @@
    import { defineConfig } from 'vite'
 
    export default defineConfig({
-     base: 'https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-demo/dist/',
+     base: 'https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-single-js-file/dist/',
    })
    ```
 
-   The base URL is ideally a CDN link for optimum load performance. For example, if the app files were hosted on GitHub at `https://github.com/tony19-sandbox/vite-react-demo/tree/main/dist`, the CDN link would be `https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-demo/dist/`.
+   The base URL is ideally a CDN link for optimum load performance. For example, if the app files were hosted on GitHub at `https://github.com/tony19-sandbox/vite-react-single-js-file/tree/main/dist`, the CDN link would be `https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-single-js-file/dist/`.
 
 6. Build the app:
 
@@ -89,12 +89,12 @@
 3. Add a `<script>` that pulls in the `app.js` file previously built. For example, if you've hosted the script on GitHub, you could use a CDN link like this:
 
     ```html
-    <script src="https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-demo/dist/assets/app.d91c60c0.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-single-js-file/dist/assets/app.d91c60c0.js"></script>
     ```
 
 The result looks like this:
 
-<img src="https://i.stack.imgur.com/4LW82.png" width="200" height="600">
+<img src="https://i.stack.imgur.com/3Nj2l.png" width="160" height="600">
 
 [GitHub](https://github.com/tony19-sandbox/vite-react-single-js-file)
 
