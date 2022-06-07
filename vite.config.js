@@ -7,6 +7,11 @@ export default defineConfig({
   plugins: [react(), cssInjectedByJsPlugin()],
   build: {
     cssCodeSplit: false,
+    rollupOptions: {
+      input: {
+        app: "./src/main.jsx",
+      },
+    },
   },
   base: "https://cdn.jsdelivr.net/gh/tony19-sandbox/vite-react-demo/dist/",
 })
