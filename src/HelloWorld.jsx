@@ -21,4 +21,4 @@ function HelloWorld() {
   )
 }
 
-export default App
+export default HelloWorld
